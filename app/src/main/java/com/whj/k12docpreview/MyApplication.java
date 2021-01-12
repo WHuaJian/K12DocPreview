@@ -1,0 +1,1 @@
+package com.whj.k12docpreview;import android.app.Application;import com.whj.tbspreview.K12DocPreview;/** * author : William * github : WHuaJian * date   : 2020/12/2914:44 * desc   : */public class MyApplication extends Application {    @Override    public void onCreate() {        super.onCreate();        K12DocPreview.init(this.getApplicationContext());    }}
